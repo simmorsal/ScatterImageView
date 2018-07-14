@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
                     onRootViewClicked(motionEvent);
                 }
 
-                return true;
+                return false;
             }
         });
     }
