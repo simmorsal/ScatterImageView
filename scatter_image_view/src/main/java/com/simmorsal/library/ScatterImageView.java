@@ -27,17 +27,6 @@ public class ScatterImageView extends FrameLayout {
     private boolean haphazardize = false;
     private int halfTheSize;
 
-    /**
-     * adding images
-     *
-     * @param context context
-     * @param imgRes if image is a bitmap, give this "0"
-     * @param bitmap if image is from resources, give this "null"
-     * @param size size of the images
-     * @param color if you don't want tint on the image, give this "0"
-     * @param count how many of the image
-     * @return this object
-     */
     public ScatterImageView addImage(Context context, int imgRes, Bitmap bitmap, int size, int color, int count) {
 //        halfTheSize = dpToPx(size) / 2;
         for (int i = 0; i < count; i++) {

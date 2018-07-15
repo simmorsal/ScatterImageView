@@ -1,4 +1,4 @@
-package com.simmorsal.scatterimageview;
+package com.simmorsal.library;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.simmorsal.scatterimageview", appContext.getPackageName());
+        assertEquals("com.simmorsal.scatter_image_view.test", appContext.getPackageName());
     }
 }

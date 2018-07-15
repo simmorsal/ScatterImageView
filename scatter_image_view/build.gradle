@@ -1,11 +1,12 @@
 apply plugin: 'com.android.library'
 
+
 final VERSION_NAME = "1.0.0"
 final VERSION_CODE = 1
 
 ext {
     bintrayRepo = 'maven'
-    bintrayName = 'scatter_image_view'
+    bintrayName = 'scatter-image-view'
 
     publishedGroupId = 'com.simmorsal.library'
     libraryName = 'ScatterImageView'
@@ -32,6 +33,7 @@ android {
     compileSdkVersion 27
 
 
+
     defaultConfig {
         minSdkVersion 16
         targetSdkVersion 27
@@ -49,9 +51,6 @@ android {
         }
     }
 
-    lintOptions {
-        abortOnError false
-    }
 }
 
 dependencies {
@@ -59,6 +58,8 @@ dependencies {
 
     implementation 'com.android.support:appcompat-v7:27.1.1'
     testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 }
 
 

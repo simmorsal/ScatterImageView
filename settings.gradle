@@ -1,1 +1,1 @@
-include ':app', ':scatter_image_view'
+include ':app', ':scatter_image_view', ':scatter_image_view'
